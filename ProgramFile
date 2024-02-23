@@ -1,0 +1,31 @@
+//C++ Project to Count to 10 
+//Rain Spann
+//Open Source GITHUB Project Post Test
+//February 22nd 2024
+
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+
+int a, b, c;
+string command;
+
+cout<<"Please enter two numbers"<<endl;
+cin>> a;
+cin>> b;
+cout<<"Press the '+' button to add the two numbers"<<endl;
+	  
+cin>>command;
+
+if (command == "+")
+{
+c = a + b; 
+cout<< "The total value is " << c <<endl;
+}
+
+return 0;
+
+}
